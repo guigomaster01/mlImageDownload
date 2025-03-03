@@ -13,7 +13,7 @@ tabButtons.forEach(button => {
     });
 });
 
-// Baixar Imagens
+// Função pra baixar imgs
 document.getElementById('baixar_button').addEventListener('click', () => {
     const urlAnuncio = document.getElementById('url_anuncio').value;
     const pastaBaixar = document.getElementById('pasta_baixar').value;
@@ -38,7 +38,7 @@ document.getElementById('baixar_button').addEventListener('click', () => {
     });
 });
 
-// Renomear Arquivos
+// Função pra renomear as imagens
 document.getElementById('renomear_button').addEventListener('click', () => {
     const pastaRenomear = document.getElementById('pasta_renomear').value;
 
