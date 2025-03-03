@@ -36,4 +36,4 @@ Caso preferir pode rodar em um ambiente de teste e antes de digitar o comando PI
 ## Autores
 
 - [@guigomaster01](https://www.github.com/guigomaster01)
-- [@imrodrigorodrigues](https://wwww.instagram.com.br/imrodrigorodrigues)
+- [@imrodrigorodrigues](https://wwww.instagram.com/imrodrigorodrigues)
