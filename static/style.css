@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tab-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.tab-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background-color: #ddd;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}

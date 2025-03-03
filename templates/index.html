@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ferramentas de Imagens do Mercado Livre</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ferramentas de Imagens do Mercado Livre</h1>
+
+        <div class="tab-container">
+            <button class="tab-button active" data-tab="baixar">Baixar Imagens</button>
+            <button class="tab-button" data-tab="renomear">Renomear Arquivos</button>
+
+            <div class="tab-content active" id="baixar">
+                <h2>Baixar Imagens</h2>
+                <input type="text" id="url_anuncio" placeholder="URL do Anúncio">
+                <input type="text" id="pasta_baixar" placeholder="Pasta de Destino">
+                <button id="baixar_button">Baixar Imagens</button>
+                <div id="baixar_mensagem"></div>
+            </div>
+
+            <div class="tab-content" id="renomear">
+                <h2>Renomear Arquivos</h2>
+                <input type="text" id="pasta_renomear" placeholder="Pasta de Imagens">
+                <button id="renomear_button">Renomear Arquivos</button>
+                <div id="renomear_mensagem"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
